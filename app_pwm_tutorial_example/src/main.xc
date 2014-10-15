@@ -21,7 +21,7 @@ void wait(void) {
 
 void client(chanend c) {
     c <: 200; //set period in 10ns clock ticks (200 us)
-    c <: 180; //50% duty
+    c <: 180; //90% duty
 
     wait();
     c <: 180;
